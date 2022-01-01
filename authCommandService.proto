@@ -1,0 +1,14 @@
+syntax = "proto3";
+package example;
+option go_package="github.com/softia-inc/nowin-definition;nowin";
+
+service AuthCommandService {
+  rpc Authorization(AuthorizationRequest) returns (AuthorizationResponse) {}
+}
+message AuthorizationRequest{
+  string email = 1;
+  string password = 2;
+}
+message AuthorizationResponse {
+  string jwtToken = 1;
+}

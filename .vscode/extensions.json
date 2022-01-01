@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "DavidAnson.vscode-markdownlint",
+    "esbenp.prettier-vscode",
+    "mfuentesg.vscode-protolint",
+    "zxh404.vscode-proto3"
+  ]
+}
