@@ -6,4 +6,6 @@ service UserQueryService {
   rpc GetLoginUser(GetLoginUserRequest) returns (GetLoginUserResponse) {}
 }
 message GetLoginUserRequest{}
-message GetLoginUserResponse {}
+message GetLoginUserResponse {
+  string userUUID =1;
+}
