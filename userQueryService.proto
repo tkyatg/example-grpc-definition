@@ -2,7 +2,7 @@ syntax = "proto3";
 package example;
 option go_package="github.com/softia-inc/nowin-definition;nowin";
 
-service UserCommandService {
+service UserQueryService {
   rpc GetLoginUser(GetLoginUserRequest) returns (GetLoginUserResponse) {}
 }
 message GetLoginUserRequest{}
